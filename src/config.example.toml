@@ -1,0 +1,12 @@
+# config.example.toml (Version 0.1.0)
+# This file is an example configuration.
+# Copy this file to 'config.toml' and fill in your actual credentials.
+# DO NOT COMMIT 'config.toml' TO VERSION CONTROL IF IT CONTAINS SENSITIVE DATA.
+
+[wifi]
+ssid = "YOUR_WIFI_SSID"          # Replace with your Wi-Fi network name (SSID)
+password = "YOUR_WIFI_PASSWORD"  # Replace with your Wi-Fi password (Pre-Shared Key - PSK)
+country = "GB"                   # Your 2-letter country code (e.g., "GB" for United Kingdom, "US" for United States)
+
+[ntp]
+server = "pool.ntp.org"          # Common NTP server, usually reliable
