@@ -13,7 +13,6 @@ class ConfigManager:
         """Internal helper to log messages to display (if available) and console."""
         if self.display_manager:
             self.display_manager.add_log_message(message)
-        print(message) # Always print to console/REPL
 
     def _parse_line(self, line):
         """
